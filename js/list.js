@@ -13,12 +13,26 @@ const d = {
 						"name": "The Yandere",
                        "author": "Ben",
                        "more": "none",
-                       "id": 64360108,
                        "pass": "Free to copy",
                        "percentToQualify": 46,
                        "verificationVid": "https://www.youtube.com/watch?v=kLlV43vJ1SE",
                        "key": 0
 		},
+		/*=================================================================================*/	
+		{
+                       "vids": [
+			    
+		       ],
+                       "name": "Yatagarasu",
+                       "author": "Ben",
+                       "more": "none",
+                       "id": 63009517,
+                       "pass": "Free to copy",
+                       "percentToQualify": 45,
+                       "verificationVid": "https://youtu.be/-p8Z_NU2GB0?si=L3Mmwk_ud5uzXOMl",
+                       "key": 1
+            	},
+		
 		/*=================================================================================*/
 		{
                        "vids": [
@@ -36,7 +50,7 @@ const d = {
 			       },
 		       ],
                        "name": "Quantum Porcessing",
-                       "author": "Riot",
+                       "author": "Knockout",
                        "more": "none",
                        "id": 63009517,
                        "pass": "Free to copy",
@@ -50,15 +64,43 @@ const d = {
 			    
 		       ],
                        "name": "Auditory Breaker",
-                       "author": "LazerBlitz",
+                       "author": "Andrew",
                        "more": "none",
                        "id": 63009517,
                        "pass": "Free to copy",
                        "percentToQualify": 45,
                        "verificationVid": "https://www.youtube.com/watch?v=I4IICgiqfbE&t=65s",
                        "key": 1
+            	},
+		
+		/*=================================================================================*/		
+		{
+                       "vids": [
+			    
+		       ],
+                       "name": "Ouroboros Startpos 2",
+                       "author": "JT",
+                       "more": "none",
+                       "id": 63009517,
+                       "pass": "Free to copy",
+                       "percentToQualify": 51,
+                       "verificationVid": "https://youtu.be/CT84uKtqhYo?si=utIC9-V7tRXxmkbl",
+                       "key": 1
                 },
-
+	/*=================================================================================*/		
+		{
+                       "vids": [
+			    
+		       ],
+                       "name": "Surge of the Shield",
+                       "author": "JT",
+                       "more": "none",
+                       "id": 63009517,
+                       "pass": "Free to copy",
+                       "percentToQualify": 51,
+                       "verificationVid": "https://www.youtube.com/watch?v=bvObypx7roQ&t=1s",
+                       "key": 1
+                },
 
 
 
@@ -72,6 +114,7 @@ const d = {
 };
 
 const list = d.list;const version = d.version;
+
 
 
 
