@@ -10,7 +10,7 @@ const d = {
 				},
 			],
 			"name": "The Yandere",
-                       "author": "Dorami",
+                       "author": "Ben",
                        "more": "none",
                        "id": 64360108,
                        "pass": "Free to copy",
@@ -71,6 +71,7 @@ const d = {
 };
 
 const list = d.list;const version = d.version;
+
 
 
 
