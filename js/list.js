@@ -4,9 +4,9 @@ const d = {
 		{
 			"vids": [
 				{
-					"user": "MichaelReeves",
-					"link": "https://youtu.be/IVUCnVHBPc8",
-					"percent": 100
+					"user": "JT",
+					"link": " ",
+					"percent": 46
 				},
 				{
 					"user": "Lupe1204",
@@ -53,8 +53,8 @@ const d = {
                        "vids": [
 			    
 		       ],
-                       "name": "Shitty Azure Flare",
-                       "author": "Magma",
+                       "name": "Auditory Breaker",
+                       "author": "LazerBlitz",
                        "more": "none",
                        "id": 63009517,
                        "pass": "Free to copy",
@@ -76,6 +76,7 @@ const d = {
 };
 
 const list = d.list;const version = d.version;
+
 
 
 
