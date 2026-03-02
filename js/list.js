@@ -6,14 +6,12 @@ const d = {
 				{
 					"user": "MichaelReeves",
 					"link": "https://youtu.be/IVUCnVHBPc8",
-					"percent": 100,
-					"hz": "288hz"
+					"percent": 100
 				},
 				{
 					"user": "Lupe1204",
 					"link": "https://youtu.be/x3AKojLgNtE",
 					"percent": 100,
-					"hz": "Mobile"
 				},
 			],
 			"name": "The Yandere",
@@ -78,5 +76,6 @@ const d = {
 };
 
 const list = d.list;const version = d.version;
+
 
 
