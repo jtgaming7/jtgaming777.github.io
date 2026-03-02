@@ -5,11 +5,12 @@ const d = {
 			"vids": [
 				{
 					"user": "JT",
-					"link": " ",
+					"link": " https://www.youtube.com/watch?v=kLlV43vJ1SE",
 					"percent": 46
+					"hz": "240hz" 
 				},
 			],
-			"name": "The Yandere",
+						"name": "The Yandere",
                        "author": "Ben",
                        "more": "none",
                        "id": 64360108,
@@ -71,6 +72,7 @@ const d = {
 };
 
 const list = d.list;const version = d.version;
+
 
 
 
