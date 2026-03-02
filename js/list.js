@@ -54,7 +54,7 @@ const d = {
                        "more": "none",
                        "id": 63009517,
                        "pass": "Free to copy",
-                       "percentToQualify": 45,
+                       "percentToQualify": 49,
                        "verificationVid": "https://www.youtube.com/watch?v=I4IICgiqfbE&t=65s",
                        "key": 1
                 },
@@ -83,7 +83,7 @@ const d = {
                        "more": "none",
                        "id": 63009517,
                        "pass": "Free to copy",
-                       "percentToQualify": 51,
+                       "percentToQualify": 64,
                        "verificationVid": "https://youtu.be/CT84uKtqhYo?si=utIC9-V7tRXxmkbl",
                        "key": 1
                 },
@@ -102,9 +102,53 @@ const d = {
                        "key": 1
                 },
 
+		/*=================================================================================*/		
+		{
+                       "vids": [
+			    
+		       ],
+                       "name": "Shock Therapy",
+                       "author": "Ben",
+                       "more": "none",
+                       "id": 63009517,
+                       "pass": "Free to copy",
+                       "percentToQualify": 54,
+                       "verificationVid": "https://youtu.be/kS29Kmzw55o?si=NPSuQYsaP-e37Jf6",
+                       "key": 1
+                },
+	/*=================================================================================*/		
+		{
+                       "vids": [
+			    
+		       ],
+                       "name": "Dolos",
+                       "author": "JT",
+                       "more": "none",
+                       "id": 63009517,
+                       "pass": "Free to copy",
+                       "percentToQualify": 55,
+                       "verificationVid": "https://youtu.be/CT84uKtqhYo?si=utIC9-V7tRXxmkbl",
+                       "key": 1
+                },
+	/*=================================================================================*/		
+		{
+                       "vids": [
+			    
+		       ],
+                       "name": "Phobos",
+                       "author": "Ben",
+                       "more": "none",
+                       "id": 63009517,
+                       "pass": "Free to copy",
+                       "percentToQualify": 52,
+                       "verificationVid": "https://youtu.be/CT84uKtqhYo?si=utIC9-V7tRXxmkbl",
+                       "key": 1
+                },
+	/*=================================================================================*/
 
 
 
+			
 	],
 	"version": [
 		1,
@@ -114,6 +158,7 @@ const d = {
 };
 
 const list = d.list;const version = d.version;
+
 
 
 
