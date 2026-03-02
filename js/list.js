@@ -8,11 +8,6 @@ const d = {
 					"link": " ",
 					"percent": 46
 				},
-				{
-					"user": "Lupe1204",
-					"link": "https://youtu.be/x3AKojLgNtE",
-					"percent": 100,
-				},
 			],
 			"name": "The Yandere",
                        "author": "Dorami",
@@ -76,6 +71,7 @@ const d = {
 };
 
 const list = d.list;const version = d.version;
+
 
 
 
