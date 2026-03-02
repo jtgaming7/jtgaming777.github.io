@@ -36,26 +36,15 @@ const d = {
 		/*=================================================================================*/
 		{
                        "vids": [
-			       {
-				       "user": "Lawnmower",
-				       "link": "https://youtu.be/30KjuruqQBA",
-				       "percent": 100,
-				       "hz": "300hz"
-			       },
-			       {
-				       "user": "Plasmic",
-				       "link": "https://www.youtube.com/watch?v=q_qw68G_c5Y&feature=youtu.be",
-				       "percent": 100,
-				       "hz": "300hz" 
-			       },
+
 		       ],
                        "name": "Quantum Porcessing",
-                       "author": "Knockout",
+                       "author": "Gabe",
                        "more": "none",
                        "id": 63009517,
                        "pass": "Free to copy",
                        "percentToQualify": 49,
-                       "verificationVid": "https://www.youtube.com/watch?v=I4IICgiqfbE&t=65s",
+                       "verificationVid": "https://youtu.be/IaofML5KTdQ?si=jQ1Ig7Gzq-k7y1ZK",
                        "key": 1
                 },
 		/*=================================================================================*/		
@@ -69,7 +58,7 @@ const d = {
                        "id": 63009517,
                        "pass": "Free to copy",
                        "percentToQualify": 45,
-                       "verificationVid": "https://www.youtube.com/watch?v=I4IICgiqfbE&t=65s",
+                       "verificationVid": " ",
                        "key": 1
             	},
 		
@@ -141,13 +130,70 @@ const d = {
                        "id": 63009517,
                        "pass": "Free to copy",
                        "percentToQualify": 52,
-                       "verificationVid": "https://youtu.be/CT84uKtqhYo?si=utIC9-V7tRXxmkbl",
+                       "verificationVid": "https://youtu.be/KrCrLQz05KA?si=uMGyR-54Bhy0zp3r",
                        "key": 1
                 },
 	/*=================================================================================*/
-
-
-
+		{
+                       "vids": [
+			    
+		       ],
+                       "name": "WHITEKNUCKLES",
+                       "author": "JT",
+                       "more": "none",
+                       "id": 63009517,
+                       "pass": "Free to copy",
+                       "percentToQualify": 52,
+                       "verificationVid": "https://youtu.be/2ImqD2LMlqs?si=60LCz3xXHz3ZM6Y8",
+                       "key": 1
+                },
+	/*=================================================================================*/
+		{
+                       "vids": [
+						   {
+					"user": "JT",
+					"link": " https://youtu.be/r7m4jtjTygk?si=_NZ302Cl-UXCWCvz",
+					"percent": 100
+					"hz": "240hz" 
+				},
+						   {
+					"user": "Andrew",
+					"link": " ",
+					"percent": 100
+					"hz": "240hz" 
+				},
+						   {
+					"user": "Ben",
+					"link": " https://youtu.be/xAwz8OIA-_Q?si=NpYW1G4YzweSyBmk",
+					"percent": 100
+					"hz": "240hz" 
+				},
+			    
+		       ],
+                       "name": "Bloodbath",
+                       "author": "Gabe",
+                       "more": "none",
+                       "id": 63009517,
+                       "pass": "Free to copy",
+                       "percentToQualify": 42,
+                       "verificationVid": "https://youtu.be/L2aKNNaGkRY",
+                       "key": 1
+                },
+	/*=================================================================================*/
+		{
+                       "vids": [
+			    
+		       ],
+                       "name": "Aftermath",
+                       "author": "Andrew",
+                       "more": "none",
+                       "id": 63009517,
+                       "pass": "Free to copy",
+                       "percentToQualify": 47,
+                       "verificationVid": " ",
+                       "key": 1
+                },
+	/*=================================================================================*/
 			
 	],
 	"version": [
@@ -158,6 +204,7 @@ const d = {
 };
 
 const list = d.list;const version = d.version;
+
 
 
 
