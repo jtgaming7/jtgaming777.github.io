@@ -47,30 +47,21 @@ function userList() {
                     var user_name = user_data[b].name.toUpperCase(); var data_name = entry2.user.toUpperCase();
                     if (user_name == data_name) {
                         user_data[b].point = user_data[b].point + p;
-                        
-                        if (user_data[b].highest == "null" && parseInt(entry2.percent) == 100) {
-                            user_data[b].highest = entry.name; 
-                        }
                         user_data[b].progress.push({map : entry.name.toString(), progress : entry2.percent.toString(), link : entry2.link, score : roundNumber(p,3), rank : i+1, hz : (entry2.hz != null ? entry2.hz : "144hz")});
                     }
                 }
             } else {
-                var map = entry.name.toString();
-                if (parseInt(entry2.percent) != 100) {
-                    map = "null";
-                }
-
                 var prog = [];
                 prog.push({map : entry.name.toString(), progress : entry2.percent.toString(), link : entry2.link, score : roundNumber(p,3), rank : i+1, hz : (entry2.hz != null ? entry2.hz : "144hz")});
 
-                user_data.push({name : entry2.user, highest : map, progress : prog, point : p, verified : []});
+                user_data.push({name : entry2.user, highest : "null", progress : prog, point : p, verified : []});
             }
         }
     }
   
     var sortingField = "point"
     user_data.sort(function(a, b) {
-    return b[sortingField] - a[sortingField];
+        return b[sortingField] - a[sortingField];
     });
   
     for (var i = 0 ; i < user_data.length ; i++) {
@@ -78,7 +69,33 @@ function userList() {
         user_data[i].progress.sort(function(a, b) {
             return b["score"] - a["score"];
         });
+
+        // Recompute highest: best-ranked level the user has completed (lowest rank number),
+        // counting both verifications and 100% progress entries.
+        var bestRank = Infinity;
+        var bestName = "null";
+
+        for (var j = 0; j < user_data[i].verified.length; j++) {
+            var vRank = user_data[i].verified[j]; // 1-indexed
+            if (vRank < bestRank) {
+                bestRank = vRank;
+                bestName = list[vRank - 1].name;
+            }
+        }
+
+        for (var j = 0; j < user_data[i].progress.length; j++) {
+            if (parseInt(user_data[i].progress[j].progress) == 100) {
+                var pRank = user_data[i].progress[j].rank;
+                if (pRank < bestRank) {
+                    bestRank = pRank;
+                    bestName = user_data[i].progress[j].map;
+                }
+            }
+        }
+
+        user_data[i].highest = bestName;
     }
+
     return user_data;
 }
 
@@ -111,3 +128,4 @@ function getUserData(user) {
     });
 
 }
+
