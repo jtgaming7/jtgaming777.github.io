@@ -5,7 +5,7 @@ const d = {
         {
           "user": "JT",
           "link": "https://www.youtube.com/watch?v=kLlV43vJ1SE",
-          "percent": 46,
+          "percent": 48,
           "hz": ""
         }
       ],
@@ -22,7 +22,7 @@ const d = {
       "name": "Yatagarasu",
       "author": "Ben",
       "more": "none",
-      "id": 63009518,
+      "id": 28220417,
       "pass": "NA",
       "percentToQualify": 45,
       "verificationVid": "https://youtu.be/-p8Z_NU2GB0?si=L3Mmwk_ud5uzXOMl"
@@ -32,7 +32,7 @@ const d = {
       "name": "Quantum Processing",
       "author": "Gabe",
       "more": "none",
-      "id": 63009519,
+      "id": 33009519,
       "pass": "NA",
       "percentToQualify": 49,
       "verificationVid": "https://youtu.be/IaofML5KTdQ?si=jQ1Ig7Gzq-k7y1ZK"
@@ -199,7 +199,44 @@ const d = {
       "pass": "NA",
       "percentToQualify": 62,
       "verificationVid": "https://youtu.be/hqJa0qvtpVs?si=uW6TsUhA_j0I2P6y"
+    },
+        {
+      "vids": [
+            {
+          "user": "Andy",
+          "link": "",
+          "percent": 100,
+          "hz": "144hz"
+        }
+
+      ],
+      "name": "Hypersonic",
+      "author": "Ben",
+      "more": "none",
+      "id": 63009532,
+      "pass": "NA",
+      "percentToQualify": 51,
+      "verificationVid": "https://youtu.be/142ppxD41Vc?si=ba_p9yROeRI3MD_c"
+    },
+
+    
+        {
+      "vids": [],
+      "name": "AcropoliX",
+      "author": "Ben",
+      "more": "none",
+      "id": 63009531,
+      "pass": "NA",
+      "percentToQualify": 55,
+      "verificationVid": "https://youtu.be/BQYhMN65tcs?si=EgLuUbif8lelJFe6"
     }
+
+  
+
+
+
+
+    
   ],
   "version": [1, 0, 4]
 };
@@ -210,6 +247,7 @@ d.list.forEach((item, index) => {
 
 const list = d.list;
 const version = d.version;
+
 
 
 
