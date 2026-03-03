@@ -251,9 +251,39 @@ const d = {
       "pass": "NA",
       "percentToQualify": 45,
       "verificationVid": ""
-    }
+    },
 
-  
+        {
+      "vids": [
+
+            {
+          "user": "Ben",
+          "link": "https://youtu.be/64uNWgwmqrk?si=IJFXfdhYM58QkIKd",
+          "percent": 100,
+          "hz": "120hz"
+        },
+        {
+          "user": "Jonny",
+          "link": "",
+          "percent": 100,
+          "hz": "144hz"
+        },
+        {
+          "user": "Ethan",
+          "link": "",
+          "percent": 100,
+          "hz": "240hz"
+        }
+        
+      ],
+      "name": "Acu",
+      "author": "JT",
+      "more": "none",
+      "id": 63009533,
+      "pass": "NA",
+      "percentToQualify": 40,
+      "verificationVid": "https://youtu.be/kw0J52Le0Ec?si=jpuMr4n1MKOJinK4"
+    }
 
 
 
@@ -269,6 +299,7 @@ d.list.forEach((item, index) => {
 
 const list = d.list;
 const version = d.version;
+
 
 
 
