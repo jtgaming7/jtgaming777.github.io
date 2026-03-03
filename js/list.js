@@ -56,6 +56,65 @@ const d = {
       "pass": "Free to copy",
       "percentToQualify": 64,
       "verificationVid": "https://youtu.be/CT84uKtqhYo?si=utIC9-V7tRXxmkbl"
+    },
+    {
+      "vids": [],
+      "name": "Dolos",
+      "author": "JT",
+      "more": "none",
+      "id": 63009521,
+      "pass": "Free to copy",
+      "percentToQualify": 55,
+      "verificationVid": "https://youtu.be/CT84uKtqhYo?si=utIC9-V7tRXxmkbl"
+    },
+    {
+      "vids": [],
+      "name": "Phobos",
+      "author": "Ben",
+      "more": "none",
+      "id": 63009522,
+      "pass": "Free to copy",
+      "percentToQualify": 52,
+      "verificationVid": "https://youtu.be/KrCrLQz05KA?si=uMGyR-54Bhy0zp3r"
+    },
+    {
+      "vids": [],
+      "name": "WHITEKNUCKLES",
+      "author": "JT",
+      "more": "none",
+      "id": 63009523,
+      "pass": "Free to copy",
+      "percentToQualify": 52,
+      "verificationVid": "https://youtu.be/2ImqD2LMlqs?si=60LCz3xXHz3ZM6Y8"
+    },
+    {
+      "vids": [
+        {
+          "user": "JT",
+          "link": "https://youtu.be/r7m4jtjTygk?si=_NZ302Cl-UXCWCvz",
+          "percent": 100,
+          "hz": "240hz"
+        },
+        {
+          "user": "Andrew",
+          "link": "",
+          "percent": 100,
+          "hz": "240hz"
+        },
+        {
+          "user": "Ben",
+          "link": "https://youtu.be/xAwz8OIA-_Q?si=NpYW1G4YzweSyBmk",
+          "percent": 100,
+          "hz": "240hz"
+        }
+      ],
+      "name": "Bloodbath",
+      "author": "Gabe",
+      "more": "none",
+      "id": 63009524,
+      "pass": "Free to copy",
+      "percentToQualify": 42,
+      "verificationVid": "https://youtu.be/L2aKNNaGkRY"
     }
   ],
   "version": [1, 0, 0]
@@ -67,13 +126,3 @@ d.list.forEach((item, index) => {
 
 const list = d.list;
 const version = d.version;
-
-
-
-
-
-
-
-
-
-
