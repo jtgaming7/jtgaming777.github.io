@@ -166,7 +166,7 @@ const d = {
     {
       "vids": [],
       "name": "SUBVERSIVE",
-      "author": "Rees",
+      "author": "Jabez",
       "more": "none",
       "id": 63009529,
       "pass": "NA",
@@ -281,13 +281,115 @@ const d = {
       "more": "none",
       "id": 63009533,
       "pass": "NA",
-      "percentToQualify": 40,
+      "percentToQualify": 42,
       "verificationVid": "https://youtu.be/kw0J52Le0Ec?si=jpuMr4n1MKOJinK4"
+    },
+
+
+
+    
+ {
+      "vids": [
+
+        
+      ],
+      "name": "Thanatophobia",
+      "author": "Ben",
+      "more": "none",
+      "id": 63009538,
+      "pass": "NA",
+      "percentToQualify": 40,
+      "verificationVid": ""
+    },
+
+    {
+      "vids": [
+
+        
+      ],
+      "name": "Primal Redux",
+      "author": "Jabez",
+      "more": "none",
+      "id": 63009548,
+      "pass": "NA",
+      "percentToQualify": 40,
+      "verificationVid": ""
+    },
+
+
+    
+  {
+      "vids": [],
+      "name": "R3D ROOM",
+      "author": "JT",
+      "more": "none",
+      "id": 63009539,
+      "pass": "NA",
+      "percentToQualify": 40,
+      "verificationVid": ""
+    },
+
+  {
+      "vids": [],
+      "name": "STEREO DEMONESS",
+      "author": "Kekoa",
+      "more": "none",
+      "id": 63009545,
+      "pass": "NA",
+      "percentToQualify": 40,
+      "verificationVid": ""
+    },
+
+
+
+    
+ {
+      "vids": [],
+      "name": "CraZy III",
+      "author": "Ben",
+      "more": "none",
+      "id": 63009540,
+      "pass": "NA",
+      "percentToQualify": 40,
+      "verificationVid": ""
+    },
+ {
+      "vids": [
+
+        
+      ],
+      "name": "Crimson Clutter",
+      "author": "Andy",
+      "more": "none",
+      "id": 63009540,
+      "pass": "NA",
+      "percentToQualify": 40,
+      "verificationVid": ""
+    },
+ 
+  {
+      "vids": [
+   {
+          "user": "Ben",
+          "link": "",
+          "percent": 100,
+          "hz": "144hz"
+        }
+        
+      ],
+      "name": "8o",
+      "author": "Andy",
+      "more": "none",
+      "id": 63009540,
+      "pass": "NA",
+      "percentToQualify": 40,
+      "verificationVid": ""
     }
 
 
 
 
+    
     
   ],
   "version": [1, 0, 8]
@@ -299,6 +401,7 @@ d.list.forEach((item, index) => {
 
 const list = d.list;
 const version = d.version;
+
 
 
 
