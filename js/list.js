@@ -6,7 +6,7 @@ const d = {
           "user": "JT",
           "link": "",
           "percent": 48,
-          "hz": ""
+          "hz": "240"
         }
       ],
       "name": "The Yandere",
@@ -413,6 +413,7 @@ d.list.forEach((item, index) => {
 
 const list = d.list;
 const version = d.version;
+
 
 
 
