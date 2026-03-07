@@ -136,6 +136,22 @@ const d = {
       "percentToQualify": 42,
       "verificationVid": "https://youtu.be/L2aKNNaGkRY"
     },
+
+     {
+      "vids": [],
+      "name": "Concial Depression",
+      "author": "Andrew",
+      "more": "none",
+      "id": 63009332,
+      "pass": "NA",
+      "percentToQualify": 47,
+      "verificationVid": ""
+   
+    },
+
+
+
+    
     {
       "vids": [],
       "name": "Aftermath",
@@ -162,8 +178,8 @@ const d = {
       "pass": "NA",
       "percentToQualify": 46,
       "verificationVid": "https://youtu.be/bbhrc1ueYHo?si=H8zZ_jvJb2zHKfeM"
-    },
-    {
+      },
+      {
       "vids": [],
       "name": "SUBVERSIVE",
       "author": "Jabez",
@@ -431,6 +447,7 @@ d.list.forEach((item, index) => {
 
 const list = d.list;
 const version = d.version;
+
 
 
 
